@@ -1,3 +1,14 @@
 This page is desgined to link to projects I'm working on and introduce myself.
 
 To see what I'm working on check out the links below:
+
+Voice:
+RJP (Robotic Journal Project) - This project is designed to be a daily journal to track goals and progress on them, moods and factors that are impacting them, day to day reminders and provide thought provoking questions.
+Quill - Quill is a simple platform for uploading audio and recieving trascripts of important points in that audio. Quill looks for the keyword "quill" in any transcript, then processes two words before and after the keyword for commands. If it finds a command it will log sentences before or after the command depending on the command (ex. "Quill, remember this" will trigger Quill to log the two sentences following that statement). After processing an audio file, Quill texts the users all important information from the audio file.
+
+Vision:
+FridgeCam: The Fridge Cam is used to monitor what objects are being stored in a users fridge, perform image recognition and text recognition on each object, then log what a user has in the fridge. The Fridge Cam will compare it's findings to a database of food expiration timelines to understand when certain foods will go bad, then alert the user that they've got food that is near expiration and reccomend recipes based on their current food.
+
+Robotics:
+Rekrobot - Rekrobot is a project I worked on in collaboration with @gargisingh1993 to build an intelligent robot with cheap hardware that was able to search for specific objects and take actions when they are found. It has very simple naviagtion and takes images of it's surroundings every few seconds, it processes these images in AWS and if it finds an object that is predefined it will be sent a command.
+
